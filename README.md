@@ -3,7 +3,7 @@
 Проект запускается командой
     npm start
 Просмотреть можно по ссылке:
-
+    https://Cepheida19.github.io/adaptive-grid
 
 
 # Getting Started with Create React App
