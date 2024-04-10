@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/adaptive-grid/static/css/main.8f4207fb.css",
+    "main.js": "/adaptive-grid/static/js/main.4b328215.js",
+    "static/js/453.bdbbf498.chunk.js": "/adaptive-grid/static/js/453.bdbbf498.chunk.js",
+    "static/media/rectangle.png": "/adaptive-grid/static/media/rectangle.e05929184469816749c6.png",
+    "index.html": "/adaptive-grid/index.html",
+    "main.8f4207fb.css.map": "/adaptive-grid/static/css/main.8f4207fb.css.map",
+    "main.4b328215.js.map": "/adaptive-grid/static/js/main.4b328215.js.map",
+    "453.bdbbf498.chunk.js.map": "/adaptive-grid/static/js/453.bdbbf498.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f4207fb.css",
+    "static/js/main.4b328215.js"
+  ]
+}
