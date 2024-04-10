@@ -1,3 +1,11 @@
+После клонирования проекта нужно установить пакеты командой 
+    npm install
+Проект запускается командой
+    npm start
+Просмотреть можно по ссылке:
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

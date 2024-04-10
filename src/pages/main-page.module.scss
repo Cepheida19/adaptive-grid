@@ -1,0 +1,145 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1536px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
+}
+
+.card-styles {
+    width: 339px;
+    height: 234px;
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.rectangle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: rotate(30deg) translate(-55%, 18%);
+    width: 934px;
+    height: 300px;
+
+    opacity: 0.7;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1600px) {
+    .main-container {
+        width: 1400px;
+    }
+
+    .card-styles {
+        width: 280px;
+        height: 194px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 40px;
+    }
+
+    .rectangle {
+        width: 750px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .main-container {
+        width: 1050px;
+    }
+
+    .card-styles {
+        width: 230px;
+        height: 158px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 25px;
+    }
+
+    .rectangle {
+        width: 600px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-container {
+        width: 850px;
+    }
+
+    .card-styles {
+        width: 230px;
+        height: 158px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 23px;
+    }
+
+    .rectangle {
+        width: 490px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 600px;
+    }
+
+    .card-styles {
+        width: 190px;
+        height: 131px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+
+    .rectangle {
+        width: 330px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        width: 400px;
+    }
+
+    .card-styles {
+        width: 170px;
+        height: 117px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 13px;
+    }
+
+    .rectangle {
+        width: 300px;
+        height: 100px;
+    }
+}
